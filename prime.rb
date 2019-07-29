@@ -15,13 +15,3 @@ def prime?(number)
   end
 end
 
-puts prime?(1)
-puts prime?(2)
-puts prime?(3)
-puts prime?(4)
-puts prime?(5)
-puts prime?(6)
-puts prime?(7)
-puts prime?(8)
-puts prime?(9)
-puts prime?(10)
