@@ -5,7 +5,7 @@ def prime?(number)
   number_array.none? do |divisible_number|
     if number <= 0 
       true
-    elsif number == -2 || number == -1 || number == 1 || number == 2
+    elsif number == 1 || number == 2
       false
     elsif number%divisible_number.to_i == 0 && number != divisible_number.to_i && number != -divisible_number.to_i && divisible_number.to_i != -1 && divisible_number.to_i != 1
       true
