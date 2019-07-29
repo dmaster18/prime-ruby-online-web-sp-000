@@ -8,7 +8,7 @@ def prime?(number)
     elsif number == -2 || number == -1 || number == 1 || number == 2
       false
     elsif number%divisible_number.to_i == 0 && number != divisible_number.to_i && number != -divisible_number.to_i && divisible_number.to_i != -1 && divisible_number.to_i != 1
-      return divisible_number
+      true
     else 
       false
     end
