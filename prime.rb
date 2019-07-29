@@ -3,7 +3,7 @@ def prime?(number)
   number_array = (-10000000..10000000).to_a
   number_array.delete(0)
   number_array.none? do |divisible_number|
-    if number <= 0 
+    if number <= 1 
       true
     elsif number == 1 || number == 2
       false
